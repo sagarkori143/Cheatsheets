@@ -39,15 +39,4 @@ We welcome contributions from the community! If you have a cheatsheet you'd like
 
 Have questions or want to discuss anything related to cheatsheets? Join our community on [Discord](#) or follow us on [Twitter](#).
 
-## 📄 License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
----
-
-### 📌 Note:
-Feel free to add more emojis and style elements to make it even more attractive!
-
----
-
 Thank you for visiting our repository! Happy coding! 🚀
