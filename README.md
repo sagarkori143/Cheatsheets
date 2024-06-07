@@ -9,6 +9,7 @@ To get started, simply browse through the list of available cheatsheets below an
 ## 📑 Available Cheatsheets
 
 Here are the programming languages covered in this repository:
+<!-- CONTENTS -->
 
 - **Python** 🐍
 - **JavaScript** 📜
@@ -19,6 +20,7 @@ Here are the programming languages covered in this repository:
 - **Node.js** 🔥
 - **TypeScript** 🦕
 
+<!-- END CONTENTS -->
 ## 🌟 Why Use Cheatsheets?
 
 - **Quick Reference** 📌: Save time by having all essential information at your fingertips.
