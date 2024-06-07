@@ -1,4 +1,4 @@
 # 📚 Contents
 
-- [Angular.md](Angular.md)
-- [React.md](React.md)
+- [Angular](Angular.md)
+- [React](React.md)

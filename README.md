@@ -13,17 +13,17 @@ Here are the programming languages covered in this repository:
 # 📚 Contents
 
 - 📂 Frameworks-or-Libraries
-  - 📄 [Angular.md](./Frameworks-or-Libraries/Angular.md)
-  - 📄 [React.md](./Frameworks-or-Libraries/React.md)
+  - 📄 [Angular](./Frameworks-or-Libraries/Angular.md)
+  - 📄 [React](./Frameworks-or-Libraries/React.md)
 - 📂 Frontend
-  - 📄 [CSS.md](./Frontend/CSS.md)
-  - 📄 [html.md](./Frontend/html.md)
+  - 📄 [Css](./Frontend/CSS.md)
+  - 📄 [Html](./Frontend/html.md)
 - 📂 Languages
-  - 📄 [Javascript.md](./Languages/Javascript.md)
-  - 📄 [RUST.md](./Languages/RUST.md)
-  - 📄 [Typescript.md](./Languages/Typescript.md)
-  - 📄 [markdown.md](./Languages/markdown.md)
-  - 📄 [python.md](./Languages/python.md)
+  - 📄 [Javascript](./Languages/Javascript.md)
+  - 📄 [Rust](./Languages/RUST.md)
+  - 📄 [Typescript](./Languages/Typescript.md)
+  - 📄 [Markdown](./Languages/markdown.md)
+  - 📄 [Python](./Languages/python.md)
 <!-- END CONTENTS -->
 ## 🌟 Why Use Cheatsheets?
 

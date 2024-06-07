@@ -1,4 +1,4 @@
 # 📚 Contents
 
-- [html.md](html.md)
-- [CSS.md](CSS.md)
+- [Html](html.md)
+- [Css](CSS.md)
