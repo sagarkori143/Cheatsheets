@@ -10,25 +10,20 @@ To get started, simply browse through the list of available cheatsheets below an
 
 Here are the programming languages covered in this repository:
 <!-- CONTENTS -->
-# Contents
+# 📚 Contents
 
-- Frameworks-or-Libraries/
-  - [Angular.md](./Frameworks-or-Libraries/Angular.md)
-  - [README.md](./Frameworks-or-Libraries/README.md)
-  - [React.md](./Frameworks-or-Libraries/React.md)
-- Frontend/
-  - [CSS.md](./Frontend/CSS.md)
-  - [README.md](./Frontend/README.md)
-  - [html.md](./Frontend/html.md)
-- Languages/
-  - [Javascript.md](./Languages/Javascript.md)
-  - [README.md](./Languages/README.md)
-  - [RUST.md](./Languages/RUST.md)
-  - [Typescript.md](./Languages/Typescript.md)
-  - [markdown.md](./Languages/markdown.md)
-  - [python.md](./Languages/python.md)
-- [README.md](./README.md)
-- [update_readmes.py](./update_readmes.py)
+- 📂 Frameworks-or-Libraries
+  - 📄 [Angular.md](./Frameworks-or-Libraries/Angular.md)
+  - 📄 [React.md](./Frameworks-or-Libraries/React.md)
+- 📂 Frontend
+  - 📄 [CSS.md](./Frontend/CSS.md)
+  - 📄 [html.md](./Frontend/html.md)
+- 📂 Languages
+  - 📄 [Javascript.md](./Languages/Javascript.md)
+  - 📄 [RUST.md](./Languages/RUST.md)
+  - 📄 [Typescript.md](./Languages/Typescript.md)
+  - 📄 [markdown.md](./Languages/markdown.md)
+  - 📄 [python.md](./Languages/python.md)
 <!-- END CONTENTS -->
 ## 🌟 Why Use Cheatsheets?
 
