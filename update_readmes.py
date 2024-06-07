@@ -8,7 +8,7 @@ def update_readme(directory):
         return
 
     with open(readme_path, "w") as readme_file:
-        readme_file.write("# Contents\n\n")
+        readme_file.write("# 📚 Contents\n\n")
         for md_file in md_files:
             readme_file.write(f"- [{md_file}]({md_file})\n")
 
@@ -19,15 +19,16 @@ def generate_repo_structure(path=".", indent=0):
             continue
         full_path = os.path.join(path, item)
         if os.path.isdir(full_path):
-            items.append(f'{"  " * indent}- {item}/')
+            folder_name = item
+            items.append(f'{"  " * indent}- 📂 {folder_name}')
             items.extend(generate_repo_structure(full_path, indent + 1))
-        else:
-            items.append(f'{"  " * indent}- [{item}]({full_path})')
+        elif full_path.endswith(".md") and not full_path.endswith("README.md"):
+            items.append(f'{"  " * indent}- 📄 [{item}]({full_path})')
     return items
 
 def update_root_readme():
     structure = generate_repo_structure()
-    structure_content = "# Contents\n\n" + "\n".join(structure)
+    structure_content = "# 📚 Contents\n\n" + "\n".join(structure)
 
     readme_path = "README.md"
     if not os.path.exists(readme_path):
