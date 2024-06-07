@@ -1,5 +1,11 @@
 import os
 
+def format_title(file_name):
+    name_without_ext = os.path.splitext(file_name)[0]
+    words = name_without_ext.split('_')
+    formatted_name = ' '.join(word.capitalize() for word in words)
+    return formatted_name
+
 def update_readme(directory):
     readme_path = os.path.join(directory, "README.md")
     md_files = [f for f in os.listdir(directory) if f.endswith(".md") and f != "README.md"]
@@ -10,7 +16,8 @@ def update_readme(directory):
     with open(readme_path, "w") as readme_file:
         readme_file.write("# 📚 Contents\n\n")
         for md_file in md_files:
-            readme_file.write(f"- [{md_file}]({md_file})\n")
+            title = format_title(md_file)
+            readme_file.write(f"- [{title}]({md_file})\n")
 
 def generate_repo_structure(path=".", indent=0):
     items = []
@@ -23,7 +30,8 @@ def generate_repo_structure(path=".", indent=0):
             items.append(f'{"  " * indent}- 📂 {folder_name}')
             items.extend(generate_repo_structure(full_path, indent + 1))
         elif full_path.endswith(".md") and not full_path.endswith("README.md"):
-            items.append(f'{"  " * indent}- 📄 [{item}]({full_path})')
+            title = format_title(item)
+            items.append(f'{"  " * indent}- 📄 [{title}]({full_path})')
     return items
 
 def update_root_readme():
