@@ -1,1 +1,3 @@
-- [Python](./python.md)
+# Contents
+
+- [python.md](python.md)
