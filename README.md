@@ -22,7 +22,7 @@ Here are the programming languages covered in this repository:
 ## 🌟 Why Use Cheatsheets?
 
 - **Quick Reference** 📌: Save time by having all essential information at your fingertips.
-- **Learning Aid** 📖: Reinforce your understanding of key concepts and syntax.
+- **Learning Aid** 📖: Reinforce your understanding of key concepts and syntax
 - **Productivity Boost** ⚡: Speed up your development process by avoiding constant look-ups.
 
 ## 📥 How to Contribute
